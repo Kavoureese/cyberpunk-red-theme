@@ -1,0 +1,216 @@
+{
+	"name": "Cyberpunk Red Theme",
+	"type": "dark",
+	"colors": {
+		// VS Code
+			// Title Bar (Top Bar)
+			"titleBar.activeBackground": "#140009",
+			"titleBar.activeForeground": "#ff8ba8",
+			"titleBar.inactiveBackground": "#140009",
+			"titleBar.inactiveForeground": "#ff8ba8",
+
+			// Activity Bar (Left-Most Bar)
+			"activityBarBadge.background": "#35ffff",
+			"activityBarBadge.foreground": "#000807",
+			"activityBar.background": "#060608",
+			"activityBar.foreground": "#ff0055",
+			"activityBar.inactiveForeground": "#ff0055",
+			"activityBar.border": "#101116",
+
+			// Side Bar (Folder view, right next to Activity Bar)
+			"sideBar.background": "#0a0b0e",
+			"sideBar.border": "#101116",
+			"sideBar.foreground": "#be4e74",
+			"sideBarTitle.foreground": "#bbbbbb",
+			"sideBarSectionHeader.background": "#240000",
+			"sideBarSectionHeader.border": "#ff235a",
+			"sideBarSectionHeader.foreground": "#ff8ba8",
+
+			// Line Number Column
+			"editorGutter.background": "#060608",
+
+			// Status Bar (Bottom Bar)
+			"statusBar.background": "#1d000ae5",
+			"statusBar.border": "#ff0055",
+			"statusBar.foreground": "#ff0055",
+			"statusBar.noFolderBackground":"#1d000ae5",
+			"statusBar.noFolderForeground": "#ff0055",
+			"statusBar.noFolderBorder": "#ff0055",
+			"statusBar.debuggingBackground": "#9900ff33",
+			"statusBar.debuggingForeground": "#c566fc",
+			"statusBar.debuggingBorder": "#b700ff",
+
+			// Badges and Buttons
+			"badge.background": "#1d000ae5",
+			"badge.foreground": "#ff0055",
+			"button.background": "#1d000ae5",
+			"button.foreground": "#ff0055",
+
+			// List Dropdown (Command palette etc)
+			"list.activeSelectionBackground": "#140009",
+			"list.hoverBackground": "#140009",
+			"list.activeSelectionForeground": "#ff8ba8",
+			"list.hoverForeground": "#ff8ba8",
+
+			// Terminal
+			"terminalCursor.foreground": "#35ffff",
+			"terminal.background": "#060608",
+
+		// Editor (Code panel)
+		"editor.background": "#060608",
+		"editor.foreground": "#b7faff",	// Default color of text for editor
+
+			// Cursor
+			"editorCursor.foreground": "#35ffff",
+
+			// Input fields
+			"input.background": "#001420",
+			"input.border": "#00a2ff",
+			"input.foreground": "#35ffff",
+			"input.placeholderForeground": "#00a2ffa9",
+
+			// Widgets (Find/Replace etc)
+			"editorWidget.background": "#1d000ae5",
+			"editorWidget.border": "#ff0055",
+
+			// Selection
+			"editor.selectionBackground": "#f353",
+
+			// Dropdown	(Panel shown when right-click)
+			"dropdown.background": "#1d000ae5",
+			"dropdown.border": "#ff0055",
+			"dropdown.foreground": "#ff8ba8",
+
+			// Editor Line Numbers
+			"editorLineNumber.foreground": "#ff00557e",
+			"editorLineNumber.activeForeground": "#35ffff",
+
+			// Panels (Terminal, etc)
+			"panel.background": "#101116",
+			"panel.border": "#ff0055",
+			"panelTitle.activeBorder": "#ff0055",
+			"panelTitle.activeForeground": "#ff0055",
+			"panelTitle.inactiveForeground": "#eb4d81de",
+
+			// Scroll Bar
+			"scrollbarSlider.background": "#ff000041",
+			"scrollbarSlider.activeBackground": "#ff0055",
+			"scrollbarSlider.hoverBackground": "#ff005578",
+
+			// Tabs
+			"tab.activeBackground": "#151621",
+			"tab.inactiveBackground": "#060608",
+			"tab.activeBorder": "#35ffff",
+			"tab.hoverBackground": "#151621",
+			"tab.hoverBorder": "#35ffff",
+			"tab.border": "#101116",
+			"tab.activeForeground": "#35ffff",
+			"tab.inactiveForeground": "#eb4d81de",
+			"editorGroupHeader.tabsBackground": "#140009",
+			"editorGroupHeader.noTabsBackground": "#140009",
+
+			// TODO: Figure out nested bracket colors
+			"editorBracketHighlight.foreground1": "#ff0055",
+			"editorBracketHighlight.foreground2": "#ff0055",
+			"editorBracketHighlight.foreground3": "#ff0055",
+			"editorBracketHighlight.foreground4": "#ff0055",
+			"editorBracketHighlight.foreground5": "#ff0055",
+			"editorBracketHighlight.foreground6": "#ff0055",
+			"editorBracketHighlight.unexpectedBracket.foreground": "#fcee0a"
+	},
+	"tokenColors": [
+		{
+			"name": "Comments and preprocessor",
+			"scope": [
+				"comment",
+				"comment.block",
+				"comment.block.documentation",
+				"comment.line"
+			],
+			"settings": {
+				"foreground": "#8a84e4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Preprocessor definitions and other",
+			"scope": [
+				"entity.name.function.preprocessor",
+				"support.type.property-name.json.comments",		// JSON field name
+				"variable.other.member.c"						// struct.member
+			],
+			"settings": {
+				"foreground": "#8a84e4"
+			}
+		},
+		{
+			"name": "Function declarations",
+			"scope": [
+				"entity.name.function"
+			],
+			"settings": {
+				"foreground": "#ff0055b7"
+			}
+		},
+		{
+			"name": "Keywords,Operator Keywords, Variable Types, Structs",
+			"scope": [
+				"keyword",
+				"keyword.control",
+				"storage.modifier",
+				"storage.type",
+				"entity.name.type.c",						// Struct
+				"punctuation.separator.dot-access.c",		// '.' struct member access
+				"punctuation.separator.pointer-access.c"	// '->' struct pointer member access
+			],
+			"settings": {
+				"foreground": "#ff0055"
+			}
+		},
+		{
+			"name": "Numbers, Literals, Constants",
+			"scope": [
+				"constant",
+				"keyword.other.unit.exponent.decimal.c",		// 'e' exponent keyword
+				"keyword.operator.minus.exponent.decimal.c",	// '-' in floating point literals
+				"keyword.other.unit.binary.c",					// '0b' prefix for binary numbers
+				"keyword.other.unit.suffix.floating-point.c",	// 'f' suffix for f32 numbers
+				"keyword.other.unit.octal.c",					// '0' prefix for octal numbers
+				"keyword.other.unit.suffix.integer",			// 'U' suffix
+				"keyword.other.unit.hexadecimal"				// '0x' prefix
+			],
+			"settings": {
+				"foreground": "#b7faff"
+			}
+		},
+		{
+			"name": "Strings",
+			"scope": [
+				"string",
+				"constant.character"
+			],
+			"settings": {
+				"foreground": "#ff957e"
+			}
+		},
+		// {
+		// 	"name": "Operators (Arithmetic, Assignment, Logical)",
+		// 	"scope": [
+		// 		"keyword.operator.arithmetic",
+		// 		"keyword.operator.assignment",
+		// 		"keyword.operator.logical",
+		// 		"keyword.operator"
+		// 	],
+		// 	"settings": {
+		// 		"foreground": "#00ffc8"
+		// 	}
+		// },
+		{
+			"name": "String Placeholders (printf identifiers)",
+			"scope": "constant.other.placeholder",
+			"settings": {
+				"foreground": "#00ffc8"
+			}
+		}
+	]
+}
