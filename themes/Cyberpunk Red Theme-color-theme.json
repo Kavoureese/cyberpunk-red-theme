@@ -11,34 +11,28 @@
 
 			// Activity Bar (Left-Most Bar)
 			"activityBarBadge.background": "#35ffff",
-			"activityBarBadge.foreground": "#000807",
+			"activityBarBadge.foreground": "#140009",
 			"activityBar.background": "#060608",
-			"activityBar.foreground": "#ff0055",
-			"activityBar.inactiveForeground": "#ff0055",
-			"activityBar.border": "#101116",
+			"activityBar.foreground": "#ff8ba8",
+			"activityBar.inactiveForeground": "#ff8ba8",
 
 			// Side Bar (Folder view, right next to Activity Bar)
 			"sideBar.background": "#0a0b0e",
 			"sideBar.border": "#101116",
-			"sideBar.foreground": "#be4e74",
+			"sideBar.foreground": "#ff8ba8",
 			"sideBarTitle.foreground": "#bbbbbb",
 			"sideBarSectionHeader.background": "#240000",
-			"sideBarSectionHeader.border": "#ff235a",
+			"sideBarSectionHeader.border": "#ff0055",
 			"sideBarSectionHeader.foreground": "#ff8ba8",
 
 			// Line Number Column
 			"editorGutter.background": "#060608",
 
 			// Status Bar (Bottom Bar)
-			"statusBar.background": "#1d000ae5",
-			"statusBar.border": "#ff0055",
-			"statusBar.foreground": "#ff0055",
-			"statusBar.noFolderBackground":"#1d000ae5",
-			"statusBar.noFolderForeground": "#ff0055",
-			"statusBar.noFolderBorder": "#ff0055",
-			"statusBar.debuggingBackground": "#9900ff33",
-			"statusBar.debuggingForeground": "#c566fc",
-			"statusBar.debuggingBorder": "#b700ff",
+			"statusBar.background": "#140009",
+			"statusBar.foreground": "#ff8ba8",
+			"statusBar.debuggingBackground": "#ff005580",
+			"statusBar.debuggingForeground": "#35ffff",
 
 			// Badges and Buttons
 			"badge.background": "#1d000ae5",
@@ -56,25 +50,31 @@
 			"terminalCursor.foreground": "#35ffff",
 			"terminal.background": "#060608",
 
+			// Git Decorations
+			"gitDecoration.addedResourceForeground": "#ff0055",
+			"gitDecoration.modifiedResourceForeground": "#ff8ba8",
+			"gitDecoration.untrackedResourceForeground": "#35ffff",
+			"gitDecoration.ignoredResourceForeground": "#906565",
+
 		// Editor (Code panel)
 		"editor.background": "#060608",
-		"editor.foreground": "#b7faff",	// Default color of text for editor
+		"editor.foreground": "#35ffff",	// Default color of text for editor
 
 			// Cursor
 			"editorCursor.foreground": "#35ffff",
 
 			// Input fields
-			"input.background": "#001420",
-			"input.border": "#00a2ff",
-			"input.foreground": "#35ffff",
-			"input.placeholderForeground": "#00a2ffa9",
+			"input.background": "#140009",
+			"input.border": "#ff0055",
+			"input.foreground": "#ff8ba8",
+			"input.placeholderForeground": "#ff8ba8",
 
 			// Widgets (Find/Replace etc)
 			"editorWidget.background": "#1d000ae5",
 			"editorWidget.border": "#ff0055",
 
 			// Selection
-			"editor.selectionBackground": "#f353",
+			"editor.selectionBackground": "#ff000041",
 
 			// Dropdown	(Panel shown when right-click)
 			"dropdown.background": "#1d000ae5",
@@ -106,8 +106,8 @@
 			"tab.border": "#101116",
 			"tab.activeForeground": "#35ffff",
 			"tab.inactiveForeground": "#eb4d81de",
-			"editorGroupHeader.tabsBackground": "#140009",
-			"editorGroupHeader.noTabsBackground": "#140009",
+			"editorGroupHeader.tabsBackground": "#060608",
+			"editorGroupHeader.noTabsBackground": "#060608",
 
 			// TODO: Figure out nested bracket colors
 			"editorBracketHighlight.foreground1": "#ff0055",
@@ -149,7 +149,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"foreground": "#ff0055b7"
+				"foreground": "#b9003e"
 			}
 		},
 		{
@@ -190,21 +190,9 @@
 				"constant.character"
 			],
 			"settings": {
-				"foreground": "#ff957e"
+				"foreground": "#a0d3ff"
 			}
 		},
-		// {
-		// 	"name": "Operators (Arithmetic, Assignment, Logical)",
-		// 	"scope": [
-		// 		"keyword.operator.arithmetic",
-		// 		"keyword.operator.assignment",
-		// 		"keyword.operator.logical",
-		// 		"keyword.operator"
-		// 	],
-		// 	"settings": {
-		// 		"foreground": "#00ffc8"
-		// 	}
-		// },
 		{
 			"name": "String Placeholders (printf identifiers)",
 			"scope": "constant.other.placeholder",
