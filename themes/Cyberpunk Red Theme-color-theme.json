@@ -56,6 +56,11 @@
 			"gitDecoration.untrackedResourceForeground": "#35ffff",
 			"gitDecoration.ignoredResourceForeground": "#906565",
 
+			// Squiggly Lines (Errors and Warnings)
+			"editorError.background": "#ff8ba850",
+			"editorError.foreground": "#ff8ba8",
+			"editorWarning.foreground": "#fcee0a",
+
 		// Editor (Code panel)
 		"editor.background": "#060608",
 		"editor.foreground": "#35ffff",	// Default color of text for editor

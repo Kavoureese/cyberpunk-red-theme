@@ -6,8 +6,15 @@ The goal of this theme is to be simple and minimal, with as few colors as possib
 Realistically, it is not meant for most people but I always wanted to make a theme that perfectly fits my taste. And so I thought to share it here, for anyone interested.
 
 # Usage
-Clone this repository directly into the extensions folder of VS Code. <br> <br>
-Recommended fonts: Fira Code or [Iosevka](https://github.com/be5invis/Iosevka).
+I have yet to publish the theme through the extension shop in VS Code, however you can package it and install it yourself for the time being, as follows:
+<ol>
+    <li>Clone repository</li>
+    <li>CD into "cyberpunk-red-theme"</li>
+    <li>Execute <code>vsce package</code> -> A <code>.vsix</code> file will be created</li>
+    <li>Execute <code>code --install-extension [the .vsix file created] </code></li>
+    <li>Hopefully, the theme installed and you are good to go! Enjoy! :)</li>
+</ol> <br>
+Recommended fonts: [Fira Code](https://github.com/tonsky/FiraCode) or [Iosevka](https://github.com/be5invis/Iosevka).
 
 # Project Scope
 This is still a Work In Progress. <br>
