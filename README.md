@@ -14,6 +14,7 @@ I have yet to publish the theme through the extension shop in VS Code, however y
     <li>Execute <code>code --install-extension [the .vsix file created] </code></li>
     <li>Hopefully, the theme installed and you are good to go! Enjoy! :)</li>
 </ol> <br>
+
 Recommended fonts: [Fira Code](https://github.com/tonsky/FiraCode) or [Iosevka](https://github.com/be5invis/Iosevka).
 
 # Project Scope
