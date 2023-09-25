@@ -23,8 +23,14 @@ It is only intended for the C and C++ languages. I don't plan on supporting othe
 There may be support for other file types, as I see fit.
 
 # Current Status
-Currently there is initial support for C. Not yet finalized. <br>
-No work done at this point for C++.
+| Language / File type | Status |
+| -------------------- | ------ |
+| C | Almost there |
+| C++ | No progress |
+| Markdown | Under way |
+| JSON | Complete |
+
+NOTE: Missing languages or file types means that I will either not support them or I have not yet used them since the time I started this theme.
 
 # Contributing
 This project is not intended to become large. So I will not be accepting Pull Requests, in order to preserve my vision. <br>
