@@ -38,6 +38,8 @@
 			"statusBar.foreground": "#ff8ba8",
 			"statusBar.debuggingBackground": "#ff005580",
 			"statusBar.debuggingForeground": "#35ffff",
+			"statusBar.noFolderBackground": "#140009",
+			"statusBar.noFolderForeground": "#ff8ba8",
 
 			// Debug toolbar
 			"debugToolBar.background": "#140009",
