@@ -1,8 +1,8 @@
 {
   "name": "cyberpunk-red-theme",
-  "displayName": "Cyberpunk Red Theme v0.0.5",
+  "displayName": "Cyberpunk Red Theme",
   "description": "Dark theme for C/C++ based on Cyberpunk's 2077 red and cyan style",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": {
     "name": "Kavoureese"
   },

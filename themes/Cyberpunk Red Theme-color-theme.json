@@ -45,11 +45,18 @@
 			"debugToolBar.background": "#140009",
 			"debugToolBar.border": "#ff0055",
 
-			// Badges and Buttons
+			// Badges
 			"badge.background": "#1d000ae5",
 			"badge.foreground": "#ff0055",
-			"button.background": "#1d000ae5",
-			"button.foreground": "#ff0055",
+
+			// Buttons
+			"button.border": "#ff8ba8",
+			"button.background": "#140009",
+			"button.foreground": "#ff8ba8",
+			"button.hoverBackground": "#2e0015",
+			"button.secondaryBackground": "#140009",
+			"button.secondaryForeground": "#ff8ba8",
+			"button.secondaryHoverBackground": "#2e0015",
 
 			// List Dropdown (Command palette etc)
 			"list.activeSelectionBackground": "#140009",
@@ -66,6 +73,14 @@
 			"gitDecoration.modifiedResourceForeground": "#ff8ba8",
 			"gitDecoration.untrackedResourceForeground": "#35ffff",
 			"gitDecoration.ignoredResourceForeground": "#906565",
+			
+			"editorGutter.addedBackground": "#ff005580",
+			"editorGutter.modifiedBackground": "#ff8ba8",
+			"editorGutter.deletedBackground": "#35ffff",
+			
+			"editorOverviewRuler.addedForeground": "#ff0055",
+			"editorOverviewRuler.modifiedForeground": "#ff8ba880",
+			"editorOverviewRuler.deletedForeground": "#35ffff80",
 
 			// Squiggly Lines (Errors and Warnings)
 			"editorError.background": "#ff8ba850",
@@ -94,7 +109,7 @@
 
 			// Dropdown	(Panel shown when right-click)
 			"dropdown.background": "#1d000ae5",
-			"dropdown.border": "#ff0055",
+			"dropdown.border": "#ff8ba8",
 			"dropdown.foreground": "#ff8ba8",
 
 			// Editor Line Numbers
