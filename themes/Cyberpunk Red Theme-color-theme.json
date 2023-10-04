@@ -1,9 +1,4 @@
 {
-	// Colors to consider:
-	// Greens: 5beba8, 1be27d
-	// Blues: 5582d5, 515edb
-	// Purple: 726acf
-
 	"name": "Cyberpunk Red Theme",
 	"type": "dark",
 	"colors": {
@@ -87,18 +82,30 @@
 			"editorError.foreground": "#ff8ba8",
 			"editorWarning.foreground": "#fcee0a",
 
+			"minimap.findMatchHighlight": "#00ffc8",
+			"minimapGutter.addedBackground": "#ff0055",
+			"minimapGutter.modifiedBackground": "#ff8ba8",
+			"minimapGutter.deletedBackground": "#35ffff",
+
 		// Editor (Code panel)
 		"editor.background": "#060608",
-		"editor.foreground": "#35ffff",	// Default color of text for editor
+		"editor.foreground": "#35ffff",
+		"editor.findMatchHighlightBackground": "#00000000",
+		"editor.findMatchHighlightBorder": "#35ffff",
+		"editorLink.activeForeground": "#ff0055",
 
 			// Cursor
 			"editorCursor.foreground": "#35ffff",
 
 			// Input fields
 			"input.background": "#140009",
-			"input.border": "#ff0055",
+			"input.border": "#ff8ba8",
 			"input.foreground": "#ff8ba8",
 			"input.placeholderForeground": "#ff8ba8",
+			"inputOption.activeBackground": "#140009",
+			"inputOption.activeBorder": "#00ffc8",
+			"inputOption.activeForeground": "#00ffc8",
+			"inputOption.hoverBackground": "#140009",
 
 			// Widgets (Find/Replace etc)
 			"editorWidget.background": "#1d000ae5",
@@ -176,7 +183,7 @@
 				"comment.line"
 			],
 			"settings": {
-				"foreground": "#8a84e4",
+				"foreground": "#00ffc8",
 				"fontStyle": "italic"
 			}
 		},
