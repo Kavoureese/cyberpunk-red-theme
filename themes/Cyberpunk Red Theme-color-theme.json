@@ -232,10 +232,43 @@
 				"punctuation.definition.metadata.markdown",
 				"punctuation.definition.tag.begin.html",
 				"punctuation.definition.tag.end.html",
-				"entity.name.tag.html"
+				"entity.name.tag.html",
+				"punctuation.definition.strikethrough.markdown",
+				"punctuation.definition.bold.markdown",
+				"punctuation.definition.italic.markdown"
 			],
 			"settings": {
 				"foreground": "#ff0055"
+			}
+		},
+		{
+			"name": "Markdown strikethrough",
+			"scope": [
+				"markup.strikethrough.markdown"
+			],
+			"settings": {
+				"fontStyle": "strikethrough",
+				"foreground": "#a0d3ff"
+			}
+		},
+		{
+			"name": "Markdown italic",
+			"scope": [
+				"markup.italic"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#a0d3ff",
+			}
+		},
+		{
+			"name": "Markdown bold",
+			"scope": [
+				"markup.bold"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#a0d3ff"
 			}
 		},
 		{
